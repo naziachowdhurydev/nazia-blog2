@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -129,31 +130,42 @@
 .link1:hover {
   color: rgb(72, 144, 245);
 }
-#blogs {
-  width: 100%;
-  height: auto;
-}
-#blogs {
-  margin: 100px;
-  padding: 300px;
-}
+
 .container-2 {
-  display: inline-block;
-  width: 60px;
-  height: 80px;
-  background: red;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 80px 80px;
+}
+.card {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 20px 20px;
+  margin-bottom: 60px;
+  background: #f8efba;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+  height: 250px;
+}
+.card-content {
+  padding: 30px 40px;
+  font-weight: 100%;
+  font-style: bold;
 }
 
-.first-blg {
-  width: 100%;
-  height: 500px;
-  border-radius: 5px;
-  background: yellow;
+.card-content,
+h1,
+p,
+a {
+  font-size: 15px;
+  padding: 5px;
 }
-img {
-  width: 300px;
-  height: 200px;
+.btn {
+  color: #2663e8;
 }
-.ele {
-  text-align: center;
+.btn:hover {
+  color: #c44569;
 }
