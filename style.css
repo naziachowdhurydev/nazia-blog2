@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.theme-button {
+  padding: 10px;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.theme-button-white {
+  padding: 10px;
+  background-color: rgba(251, 251, 251, 0);
+  border: 1px solid rgb(255, 255, 255, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-banner {
+  background: url('./hero-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.nav .logo {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .logo img {
+  height: 50%;
+}
+
+.nav .nav-button {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.banner-info-img {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-info-img img {
+  width: 400px;
+  height: auto;
+}
+
+.hero-banner h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero-banner .banner-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 {
+  margin: 0 auto;
+  height: 60px;
+  background: #d0f3f6;
+}
+.section2 .purchase {
+  text-align: center;
+  padding: 15px;
+  font-weight: 70px;
+  font-size: 20px;
+
+  font-size: large;
+}
+.hot-span {
+  background-color: rgb(240, 120, 140);
+  border: none;
+  border-radius: 5px;
+
+  padding: 5px;
+  cursor: pointer;
+
+  color: #3e21de;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.text-middle {
+  color: black;
+  font-size: 20px;
+  font-weight: 50px;
+}
+
+.link1:hover {
+  color: rgb(72, 144, 245);
+}
+#blogs {
+  width: 100%;
+  height: auto;
+}
+#blogs {
+  margin: 100px;
+  padding: 300px;
+}
+.container-2 {
+  display: inline-block;
+  width: 60px;
+  height: 80px;
+  background: red;
+}
+
+.first-blg {
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+  background: yellow;
+}
+img {
+  width: 300px;
+  height: 200px;
+}
+.ele {
+  text-align: center;
+}
