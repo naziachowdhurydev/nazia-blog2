@@ -169,3 +169,28 @@ a {
 .btn:hover {
   color: #c44569;
 }
+.container-3 {
+  background: #bdc3c7;
+  width: 100%;
+  height: 200px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+.content-center {
+  background: #bdc3c7;
+  text-align: center;
+  overflow: hidden;
+}
+.content-center h1 {
+  font-size: 30px;
+  padding: 15px;
+}
+.content-center h1 p {
+  font-weight: 100;
+  font-style: bold;
+}
+.content-center p {
+  font-size: 20px;
+  padding: 30px;
+}
