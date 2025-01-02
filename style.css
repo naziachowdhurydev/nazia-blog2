@@ -130,7 +130,7 @@
 .link1:hover {
   color: rgb(72, 144, 245);
 }
-
+/* blog */
 .container-2 {
   display: flex;
   justify-content: center;
@@ -169,6 +169,7 @@ a {
 .btn:hover {
   color: #c44569;
 }
+/* text center */
 .container-3 {
   background: #bdc3c7;
   width: 100%;
@@ -193,4 +194,81 @@ a {
 .content-center p {
   font-size: 20px;
   padding: 30px;
+}
+/* page card */
+#page-card {
+  width: 100%;
+  height: 450px;
+  background: #2663e8;
+}
+.row {
+  background: #535c68;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-items: center;
+}
+.box-1 {
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #fff;
+  padding: 50px 50px;
+  margin: 80px 80px;
+  height: 90px 90px;
+  display: flex;
+  justify-content: first baseline;
+}
+.box-1-text {
+  text-align: center;
+}
+.box-1-text h1 {
+  font-size: 25px;
+  padding: 20px;
+}
+.box-1-text p a {
+  font-size: 30px;
+  font-weight: 100%;
+  padding: 10px 10px;
+}
+.box-1-text a {
+  text-decoration: none;
+  color: #222f3e;
+  border: 40px;
+  background: #0984e3;
+  border-radius: 5px;
+}
+.box-1-text a:hover {
+  background: #fd79a8;
+}
+.box-2 {
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #fff;
+  padding: 50px 50px;
+  margin: 80px 80px;
+  height: 90px 90px;
+  display: flex;
+  justify-content: first baseline;
+}
+.box-2-text {
+  text-align: center;
+}
+.box-2-text h1 {
+  font-size: 25px;
+  padding: 20px;
+}
+.box-2-text p a {
+  font-size: 30px;
+  font-weight: 100%;
+  padding: 10px 10px;
+}
+.box-2-text a {
+  text-decoration: none;
+  color: #222f3e;
+  border: 40px;
+  background: #0984e3;
+  border-radius: 5px;
+}
+.box-2-text a:hover {
+  background: #fd79a8;
 }
